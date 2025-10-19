@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joshua David Smith — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Full‑Stack React & Flask Developer — Web & API solutions.">
+</head>
+<body>
+  <header class="nav">
+    <h1>Joshua David Smith</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h2>React & Flask Developer | Web & API Solutions</h2>
+    <p>Building clean, fast frontends and secure, well‑documented APIs.</p>
+    <div class="cta">
+      <a class="btn" href="#projects">View Projects</a>
+      <a class="btn btn-secondary" href="mailto:joshua.d.smith.dev@gmail.com">Contact</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h3>About</h3>
+    <p>
+      Full‑stack developer specializing in React frontends and Flask/SQL backends.
+      I build JWT‑secured APIs with rate limiting and caching, and ship responsive UIs
+      with clean documentation and deploys.
+    </p>
+    <ul class="badges">
+      <li>React</li>
+      <li>Flask</li>
+      <li>SQLAlchemy</li>
+      <li>JWT</li>
+      <li>Stripe</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h3>Projects</h3>
+
+    <article class="card">
+      <h4>Mechanic Shop API — Flask + SQLAlchemy + JWT</h4>
+      <p>REST API with auth, rate limiting, caching, Swagger docs, and Postman collection.</p>
+      <div class="links">
+        <a target="_blank" href="https://github.com/joshua-smith222/mechanic-shop-api">GitHub Repo</a>
+        <a target="_blank" href="https://example-render-demo.com">Live Demo</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h4>E‑Commerce Frontend — React Cart System</h4>
+      <p>Responsive product list/detail, subtotal calculations, and state persistence; API‑ready.</p>
+      <div class="links">
+        <a target="_blank" href="https://github.com/joshua-smith222/ecommerce-cart">GitHub Repo</a>
+        <a target="_blank" href="https://example-netlify-demo.com">Live Demo</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h4>Open Trivia Quiz App — React Router</h4>
+      <p>Multi‑page quiz with API fetching and results view.</p>
+      <div class="links">
+        <a target="_blank" href="https://github.com/joshua-smith222/trivia-app">GitHub Repo</a>
+        <a target="_blank" href="https://example-vercel-demo.com">Live Demo</a>
+      </div>
+    </article>
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Contact</h3>
+    <p>Bay Area, CA · <a href="mailto:joshua.d.smith.dev@gmail.com">joshua.d.smith.dev@gmail.com</a> · <a target="_blank" href="https://github.com/joshua-smith222">GitHub</a> · <a target="_blank" href="https://www.linkedin.com/in/joshua-david-smith">LinkedIn</a></p>
+  </section>
+
+  <footer class="footer">
+    <small>© 2025 Joshua David Smith. Built with love and vanilla HTML/CSS. Hosted on GitHub Pages.</small>
+  </footer>
+  <script>
+    document.querySelector('.footer small').innerHTML = `© ${new Date().getFullYear()} Joshua David Smith. Built with love and vanilla HTML/CSS. Hosted on GitHub Pages.`;
+  </script>
+</body>
+</html>
